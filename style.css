@@ -1,0 +1,61 @@
+.wrapper {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    width: 400px;
+    height: 300px;
+    /* background-color: gray; */
+  }
+  
+  .bus {
+    position: relative;
+    width: 100%;
+    height: 225px;
+    border-radius: 30px 30px 0 0;
+    background-color: gold;
+  }
+  
+  .rwheel {
+    position: relative;
+    left: 20px;
+    width: 75px;
+    height: 75px;
+    border-radius: 0 0 20px 20px;
+    background-color: black;
+  }
+  
+  .lwheel {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    width: 75px;
+    height: 75px;
+    border-radius: 0 0 20px 20px;
+    background-color: black;
+  }
+  
+  .bwindow {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 380px;
+    height: 90px;
+    border-radius: 100% 100% 0 0;
+    background-color: darkblue;
+    
+  }
+  
+  .lplate {
+    position: absolute;
+    width: 300px;
+    bottom: 10px;
+    left: 40px;
+    height: 70px;
+    border: 4px solid red;
+    background-color: yellow;
+  }
+  
+  .no_deco {
+    text-decoration: none;
+    color: black;
+  }
